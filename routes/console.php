@@ -2,5 +2,4 @@
 
 use Illuminate\Support\Facades\Schedule;
 
-Schedule::command('backup:database')
-    ->dailyAt('02:00');
+Schedule::command('backup:database')->dailyAt('02:00');
